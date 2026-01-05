@@ -20,7 +20,7 @@ It automates:
 - Fluff Linux or Arch Linux
 - root privileges  
 - systemd  
-- (optional) NetworkManager — fully supported  
+- NetworkManager (likely optional however this was tested with NM in mind)
 
 ---
 
@@ -45,7 +45,7 @@ Client configuration files are stored alongside the script and also displayed as
 
 ## Why this fork?
 
-The upstream project targets Debian- and RHEL-based systems.
+The upstream project targets Debian and RHEL-based systems.
 
 This fork:
 
@@ -85,7 +85,3 @@ This fork maintained by **FluffNet LLC**
 <https://github.com/FluffNet>
 
 ---
-
-## License
-
-MIT — same as upstream.
