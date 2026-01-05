@@ -64,7 +64,7 @@ It is designed to be:
 ---
 
 
-## Defaults
+## Hard defaults
 
 - VPN subnet: `10.7.0.0/24`
 - Interface: `wg0`
@@ -72,7 +72,11 @@ It is designed to be:
 - NAT via systemd-managed `iptables-nft`
 - NetworkManager ignores `wg0`
 
-These defaults mirror upstream behaviour while remaining Arch-native.
+> **NOTE: The installer does not currently provide an option to choose a different subnet.**
+
+> If needed, it can be changed manually in:
+>
+> `/etc/wireguard/wg0.conf`
 
 ---
 
