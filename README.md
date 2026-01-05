@@ -72,11 +72,10 @@ It is designed to be:
 - NAT via systemd-managed `iptables-nft`
 - NetworkManager ignores `wg0`
 
-> **NOTE: The installer does not currently provide an option to choose a different subnet.**
+**NOTE: The installer does not currently provide an option to choose a different subnet.**
 
-> If needed, it can be changed manually in:
->
-> `/etc/wireguard/wg0.conf`
+If needed, it can be changed manually in:
+`/etc/wireguard/wg0.conf`
 
 ---
 
